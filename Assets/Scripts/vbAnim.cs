@@ -69,27 +69,19 @@ public class vbAnim : MonoBehaviour, IVirtualButtonEventHandler {
         var nextStates = state.GetNextStates();
 
         //  This calls the next state allocated in State Class.
-        if (nextStates.Length > 0)
+        switch (vb.VirtualButtonName)
         {
-            state = nextStates[0]; // Only works for one button.
-        }
-        else
-        {
-            // 2 or more choices for button (MAX no == 2)
-            switch (vb.VirtualButtonName)
-            {
-                case "Button01":
-                    Debug.Log("Button 01");
-                    state = nextStates[0]; // Choose next state
+            case "Button01":
+                Debug.Log("Button 01");
+                state = nextStates[0]; // Choose next state
 
-                    break;
+                break;
 
-                case "Button02":
-                    Debug.Log("Button 02");
-                    state = nextStates[1]; // Choose next state
+            case "Button02":
+                Debug.Log("Button 02");
+                state = nextStates[1]; // Choose next state
 
-                    break;
-            }
+                break;
         }
         // Update the buttons according to next states
         var buttonTexts = state.GetButtonTexts();
@@ -108,7 +100,7 @@ public class vbAnim : MonoBehaviour, IVirtualButtonEventHandler {
 
     public void OnButtonReleased(VirtualButtonBehaviour vb) {
         cubeAni.Play("none");
-        Debug.Log("BTN Released");
+        //Debug.Log("BTN Released");
 
     }
 }

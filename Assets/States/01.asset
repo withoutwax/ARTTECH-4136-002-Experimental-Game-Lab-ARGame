@@ -18,6 +18,6 @@ MonoBehaviour:
   nextStates:
   - {fileID: 11400000, guid: 8e4bde6e1c6ec4c30b125e869e6a7fd4, type: 2}
   - {fileID: 11400000, guid: 4a6abc780b9274e14873d277756f6359, type: 2}
-  nextButtonText:
-  - Who are you?
-  - I'll help you!
+  ButtonTexts:
+  - Who are you...?
+  - What should I do to help you?

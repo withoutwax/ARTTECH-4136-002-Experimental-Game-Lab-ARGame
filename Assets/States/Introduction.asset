@@ -17,5 +17,7 @@ MonoBehaviour:
     Press the button to begin!'
   nextStates:
   - {fileID: 11400000, guid: 626b6a225bdc6438fa25e696fbb290d9, type: 2}
-  nextButtonText:
-  - Touch to begin!
+  - {fileID: 11400000, guid: 626b6a225bdc6438fa25e696fbb290d9, type: 2}
+  ButtonTexts:
+  - Touch any button!
+  - Touch any button!

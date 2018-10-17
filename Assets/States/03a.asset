@@ -11,6 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26365c54b823d45a5b7db12fe0286a92, type: 3}
   m_Name: 03a
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
-  ButtonTexts: []
+  storyText: 'You: Reveal yourself first!
+
+
+    ???: I... I can''t! I need to get out from here to show myself!'
+  nextStates:
+  - {fileID: 11400000, guid: 4a6abc780b9274e14873d277756f6359, type: 2}
+  - {fileID: 11400000, guid: a1c0064bc9cf3458a9d0df35778c8b43, type: 2}
+  ButtonTexts:
+  - What should I do to help you...?
+  - How can I believe you?

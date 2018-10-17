@@ -11,6 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26365c54b823d45a5b7db12fe0286a92, type: 3}
   m_Name: 04a
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
-  ButtonTexts: []
+  storyText: "You: How can I believe you?\n\n???: Well.. you can't! \nBut I can show
+    you the way that I can be trusted!"
+  nextStates:
+  - {fileID: 11400000, guid: 0db79614365f442888692ca15fa285c9, type: 2}
+  - {fileID: 11400000, guid: adbb1539ef4044ea1b7d161ae47bfb7a, type: 2}
+  ButtonTexts:
+  - What's that...?
+  - No, I don't believe you.

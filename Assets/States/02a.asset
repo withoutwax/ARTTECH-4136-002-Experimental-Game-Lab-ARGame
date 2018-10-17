@@ -16,8 +16,8 @@ MonoBehaviour:
 
     ???: I... I am... inside! Please help me get out from here!'
   nextStates:
-  - {fileID: 0}
-  - {fileID: 0}
-  nextButtonText:
-  - Wait... I don't understand!
-  - What should I do to help you?
+  - {fileID: 11400000, guid: 45e873f4cf1d64d53b988bae507938c0, type: 2}
+  - {fileID: 11400000, guid: 4a6abc780b9274e14873d277756f6359, type: 2}
+  ButtonTexts:
+  - Reveal yourself first!
+  - What should I do to help you...?

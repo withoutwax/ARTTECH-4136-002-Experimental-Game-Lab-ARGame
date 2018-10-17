@@ -9,8 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26365c54b823d45a5b7db12fe0286a92, type: 3}
-  m_Name: 3b
+  m_Name: 03b
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
-  ButtonTexts: []
+  storyText: 'You: Right button
+
+
+    ???: Nice! Now flip the card! What do you see?'
+  nextStates:
+  - {fileID: 11400000, guid: 4f967288645d443a2a0866d995ca4e38, type: 2}
+  - {fileID: 11400000, guid: 17aa9876292154cd3af11c641f0ce8f7, type: 2}
+  ButtonTexts:
+  - 4 of clover
+  - I don't see anything.

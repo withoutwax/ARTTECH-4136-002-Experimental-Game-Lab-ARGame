@@ -11,6 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26365c54b823d45a5b7db12fe0286a92, type: 3}
   m_Name: 04b
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
-  ButtonTexts: []
+  storyText: 'You: I don''t see anything.
+
+
+    ???: Liar! Again, what do you see?'
+  nextStates:
+  - {fileID: 11400000, guid: 4f967288645d443a2a0866d995ca4e38, type: 2}
+  - {fileID: 11400000, guid: 4f967288645d443a2a0866d995ca4e38, type: 2}
+  ButtonTexts:
+  - 4 of clover
+  - 4 of clover....

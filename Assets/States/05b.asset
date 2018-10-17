@@ -11,6 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26365c54b823d45a5b7db12fe0286a92, type: 3}
   m_Name: 05b
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
-  ButtonTexts: []
+  storyText: "You: 4 of clover...\n\n???: Sweet! Almost there! \nNow please click
+    the left button and you'll see me!"
+  nextStates:
+  - {fileID: 11400000, guid: de6c278c7957d405997839c99070918a, type: 2}
+  - {fileID: 11400000, guid: adbb1539ef4044ea1b7d161ae47bfb7a, type: 2}
+  ButtonTexts:
+  - Left Button
+  - Right Button

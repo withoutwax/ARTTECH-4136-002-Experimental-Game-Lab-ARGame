@@ -11,6 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26365c54b823d45a5b7db12fe0286a92, type: 3}
   m_Name: Success
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
-  ButtonTexts: []
+  storyText: "Success!\nHey! Thank you for releasing me! \nMy name is Clover and \nI'm
+    here to start an adventure with you!\n\nA whole new story begins..."
+  nextStates:
+  - {fileID: 11400000, guid: b1df51bbe1625469d89443c9ca3e5c5f, type: 2}
+  - {fileID: 0}
+  ButtonTexts:
+  - Start again
+  - Advance to 1st chapter...

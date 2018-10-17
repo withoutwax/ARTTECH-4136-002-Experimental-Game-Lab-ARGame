@@ -11,13 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26365c54b823d45a5b7db12fe0286a92, type: 3}
   m_Name: 02b
   m_EditorClassIdentifier: 
-  storyText: 'You: What should I do to help you?
-
-
-    ???: You can come closer with your phone... and choose the button on the right...'
+  storyText: "You: What should I do to help you?\n\n???: You can come closer with
+    your phone... \nand choose the button on the right..."
   nextStates:
-  - {fileID: 0}
-  - {fileID: 0}
-  nextButtonText:
-  - Left button
-  - Right button
+  - {fileID: 11400000, guid: adbb1539ef4044ea1b7d161ae47bfb7a, type: 2}
+  - {fileID: 11400000, guid: e758ba841e23a460c8543a2350e88b48, type: 2}
+  ButtonTexts:
+  - Left Button
+  - Right Button
