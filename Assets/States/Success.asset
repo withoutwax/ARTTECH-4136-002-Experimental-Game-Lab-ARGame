@@ -19,3 +19,4 @@ MonoBehaviour:
   ButtonTexts:
   - Start again
   - Advance to 1st chapter...
+  win: 1

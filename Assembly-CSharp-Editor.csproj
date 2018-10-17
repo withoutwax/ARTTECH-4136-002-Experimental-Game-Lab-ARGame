@@ -62,6 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
+    <Compile Include="Assets\WR_wHiteRabbiT-sTudio\WRFramework\Unity\Editor\Tools\AboutEW.cs" />
+    <Compile Include="Assets\WR_wHiteRabbiT-sTudio\WRFramework\Unity\Editor\Tools\ContinuationManager.cs" />
+    <Compile Include="Assets\WR_wHiteRabbiT-sTudio\WRFramework\Unity\Editor\Tools\wHiteRabbiTEW.cs" />
     <None Include="Assets\Editor\Vuforia\Emulator\VuforiaEmulator.xml" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Volumes/Macintosh HD/SAIC Drive/SAIC/Fall 2018/ARTTECH 4136-002 Experimental Game Lab/06/Assignments/ARButton_2018Ver/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

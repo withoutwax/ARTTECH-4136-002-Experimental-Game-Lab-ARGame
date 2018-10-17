@@ -15,6 +15,7 @@ public class vbAnim : MonoBehaviour, IVirtualButtonEventHandler {
     private TextMesh vbBtnObjText02;
 
     public Animator cubeAni;
+    public GameObject dancingModel;
 
     // Display of instructions and story goes here.
     public TextMesh instructions;
@@ -28,6 +29,7 @@ public class vbAnim : MonoBehaviour, IVirtualButtonEventHandler {
     // Use this for initialization
     void Start () {
         Debug.Log("Game Initiated");
+        dancingModel.SetActive(false);
 
         // This initializes the cube (for dancing)
         cubeAni.GetComponent<Animator>();
@@ -89,17 +91,21 @@ public class vbAnim : MonoBehaviour, IVirtualButtonEventHandler {
         vbBtnObjText02.text = buttonTexts[1];
 
         // Play the Cube! (Make the cube dance)
-        cubeAni.Play("cube_animation");
+        //cubeAni.Play("cube-animation");
 
         // Update the display with new story
         textComponent.text = state.GetStateStory();
-        instructions.text = textComponent.text; 
+        instructions.text = textComponent.text;
+        if (state.win == true) {
+            Debug.Log("ANIMATION SHOULD PLAY!");
+            dancingModel.SetActive(true);
+        }
 
     }
 	
 
     public void OnButtonReleased(VirtualButtonBehaviour vb) {
-        cubeAni.Play("none");
+        //cubeAni.Play("none");
         //Debug.Log("BTN Released");
 
     }

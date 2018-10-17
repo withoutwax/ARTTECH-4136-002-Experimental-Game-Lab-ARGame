@@ -9,6 +9,7 @@ public class State : ScriptableObject {
     [TextArea(10, 14)][SerializeField] string storyText;
     [SerializeField] State[] nextStates;
     [SerializeField] string[] ButtonTexts;
+    public bool win;
  
     public string GetStateStory() {
         return storyText;
